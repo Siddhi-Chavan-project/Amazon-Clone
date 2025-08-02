@@ -1,0 +1,5 @@
+.hero-section{
+    height: 600px;
+    background-image: url("C:\Users\Vaibhav\my-react-app\AMAZON IMG\hero_image.jpg");
+    background-size: cover;
+}

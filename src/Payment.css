@@ -1,0 +1,51 @@
+/* Styling for the payment container */
+.payment-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Styling for the heading */
+.payment-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the payment success message */
+.payment-success {
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Styling for the payment form */
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.payment-form button {
+    width: 100%;
+    padding: 10px;
+    background-color:#f0c14b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
